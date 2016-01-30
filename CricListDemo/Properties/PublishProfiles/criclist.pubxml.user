@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\CricList\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/CricListDemo.config">
+      <publishTime>01/23/2016 13:07:34</publishTime>
+    </File>
+    <File Include="bin/CricListDemo.dll">
+      <publishTime>01/23/2016 13:29:55</publishTime>
+    </File>
+    <File Include="bin/CricListDemo.pdb">
+      <publishTime>01/23/2016 13:29:55</publishTime>
+    </File>
+    <File Include="CricListDemo/CricketerDetail.ascx">
+      <publishTime>01/23/2016 13:29:37</publishTime>
+    </File>
+    <File Include="CricListDemo/CricketerList.ascx">
+      <publishTime>01/23/2016 14:58:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
